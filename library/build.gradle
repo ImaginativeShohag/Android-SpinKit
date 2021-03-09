@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+//apply plugin: 'com.novoda.bintray-release'
 
 android {
 
@@ -17,12 +17,12 @@ android {
 }
 
 
-publish {
-    userOrg = 'ybq'
-    groupId = 'com.github.ybq'
-    artifactId = 'Android-SpinKit'
-    publishVersion = '1.4.0'
-    desc = 'Android loading animations'
-    website = 'https://github.com/ybq/Android-SpinKit'
-    licences = ['MIT']
-}
+//publish {
+//    userOrg = 'ybq'
+//    groupId = 'com.github.ybq'
+//    artifactId = 'Android-SpinKit'
+//    publishVersion = '1.4.0'
+//    desc = 'Android loading animations'
+//    website = 'https://github.com/ybq/Android-SpinKit'
+//    licences = ['MIT']
+//}
